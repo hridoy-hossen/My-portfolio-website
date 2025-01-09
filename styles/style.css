@@ -1,0 +1,103 @@
+.open-sans-font {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+/* Sheared style */
+.color-1{
+    color: #FD6E0A;
+}
+.dark2{
+    color: #474747;
+}
+
+
+.btn-prymary{
+    background-color: #FD6E0A ;
+    padding: 18px 35px 19px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* Sheared style */
+
+ header{
+    background-image: url("/images/developer.png") , url("/images/header_bg.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+ }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav-title{
+    font-weight: 800;
+    font-size: 43px;
+  }
+
+  .title-span{
+    color:rgb(253, 110, 10);
+  }
+
+  .nav-items{
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-items > li{
+    list-style: none;
+    margin-right: 50px;
+
+  }
+
+  .nav-items > li > a{
+    text-decoration: none;
+    font-size: 18px;
+
+  }
+
+  /* Banner Styling */
+  .banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .banner-content{
+    margin-left: 225px;
+  }
+  .banner-greetings{
+    font-size: 43px;
+    font-weight: 600;
+    margin: 0%;
+  }
+
+  .banner-content{
+    width: 580px;
+    height: ;
+  }
+
+  .banner-title{
+    font-size: 82px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .banner-discription{
+    color: #757575;
+    line-height: 27px;
+  }
+
+  .side-content{
+    width: 572px;
+    
+  }
+  .side-content img{
+    width: 100%;
+  }
